@@ -1,0 +1,5 @@
+batch_size,precision,execution,first_call_ms,compute_median_ms,compute_p25_ms,compute_p75_ms,compute_throughput,transfer_compute_median_ms,transfer_compute_throughput,ram_rss_mb,peak_ram_mb,batch_gflops,achieved_gflops
+1,FP32,eager_cpu_openmp,40.283,15.966,14.57,18.18,62.63,14.771,67.7,252.71,252.71,1.2282,76.93
+8,FP32,eager_cpu_openmp,98.143,95.221,88.616,102.502,84.01,91.96,86.99,275.77,275.77,9.8256,103.19
+32,FP32,eager_cpu_openmp,435.219,426.525,412.795,440.813,75.02,428.337,74.71,264.64,345.34,39.3026,92.15
+64,FP32,eager_cpu_openmp,828.294,776.443,747.123,806.49,82.43,790.395,80.97,321.46,398.17,78.6052,101.24

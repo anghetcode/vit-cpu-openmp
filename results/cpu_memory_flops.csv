@@ -1,0 +1,5 @@
+platform,batch_size,latency_median_ms,throughput_imgs_sec,ram_rss_mb,peak_ram_mb,batch_gflops,achieved_gflops
+CPU,1,15.966,62.63,252.71,252.71,1.2282,76.93
+CPU,8,95.221,84.01,275.77,275.77,9.8256,103.19
+CPU,32,426.525,75.02,264.64,345.34,39.3026,92.15
+CPU,64,776.443,82.43,321.46,398.17,78.6052,101.24
